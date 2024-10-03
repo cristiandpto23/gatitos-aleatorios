@@ -7,11 +7,18 @@
 }
 
 body {
-    width: 400px;
+    width: 374px;
     margin: 0 auto;
     margin-top: 50px;
     background-color: #080808;
 }
+.container__one {
+    height: 20%;
+}
+.container__two {
+    height: 80%;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -21,16 +28,18 @@ h1 {
 button {
     margin-top: 20px;
     width: 100%;
-    padding: 10px;
+    padding: 15px 10px;
     background-color: #f1356d;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 10px 10px 0 0;
+    font-weight: bold;
 }
 
 img {
-    max-width: 400px;
+    width: 374px;
+    height: 100%;
     object-fit: cover;
     border-radius: 0 0 10px 10px;
 }
